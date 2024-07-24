@@ -134,3 +134,9 @@ div[class^="col-"] {
 and remember the padding on the head
 still working on this css 
 */
+
+@layer components {
+	.owl-text {
+		@apply text-[#888] text-sm font-light my-1;
+	}
+}

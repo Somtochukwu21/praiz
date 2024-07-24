@@ -1,4 +1,7 @@
+"use client";
 import bg from "@/public/main_photo.jpg";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 import Link from "next/link";
 import React from "react";
 
@@ -14,8 +17,27 @@ const Hero: React.FC = () => {
 				</div>
 			</div>
 			<div className="col-sm-12 col-md-6 col-lg-6">
-				<div className="text-[#d5d5d5] lg:p-[50px_70px_50px_0] -ml-[70px]">
-					<div className="hp-text-block relative lg:shadow-custom py-[70px] px-[15%] bg-[#333]	h-full min-h-[100px]">
+				<div className="text-[#d5d5d5] lg:p-[50px_70px_50px_0] -ml-[70px] ">
+					<div className="relative lg:shadow-custom py-[70px] px-[15%] bg-[#333]	h-full min-h-[100px]">
+						<Splide
+							options={{
+								type: "loop",
+								rewind: true,
+								pagination: false,
+								arrows: false,
+								autoplay: true,
+								drag: false,
+								interval: 4000,
+							}}
+							aria-label="Text slide">
+							<SplideSlide>
+								<div className="owl-text">Web Designer</div>
+							</SplideSlide>
+							<SplideSlide>
+								<div className="owl-text">Frontend Developer</div>
+							</SplideSlide>
+						</Splide>
+
 						<h2 className="text-[48px] leading-[1.2em]  text-[#f5f5f5] font-semibold mt-[5px] mb-[15px] ">
 							Somto Nnaji
 						</h2>
@@ -41,3 +63,5 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
+// work on adding yarn add swiper
