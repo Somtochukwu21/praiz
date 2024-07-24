@@ -1,5 +1,6 @@
 "use client";
-import { useBackgroundMover } from "./hooks";
+
+import { useBackgroundMover } from "../../base";
 
 export const Background = () => {
 	const { containerRef } = useBackgroundMover();

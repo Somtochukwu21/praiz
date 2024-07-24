@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { Background } from "./Background";
-import { Header } from "./components/Global/Header";
-import "./globals.css";
 import { Card } from "./components";
+import { Header } from "./components/Global/_header.tsx/header";
+import { Background } from "./components/Global/background";
+import "./globals.css";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -21,13 +21,12 @@ export default function RootLayout({
 		<html
 			lang="en"
 			className="relative h-full min-h-full w-full overflow-hidden select-none">
-			<body className={ poppins.className }>
+			<body className={poppins.className}>
 				<Card>
-					
-				<Header />
-				<Background />
+					<Header />
+					<Background />
 
-				{children}
+					{children}
 				</Card>
 			</body>
 		</html>

@@ -16,9 +16,9 @@ const Hero: React.FC = () => {
 						</div>
 					</div>
 					<div className="col-sm-12 col-md-6 col-lg-6">
-						<div className="inner-content inner-text-block ">
+						<div className="inner-content inner-text-block  text-[#d5d5d5]">
 							<div className="hp-text-block relative py-[70px] px-[15%] bg-[#333]	h-full min-h-[100px]">
-								<h2 className="text-[48px] leading-[1.2em] text-[#fff] font-semibold mt-[5px] mb-[15px] ">
+								<h2 className="text-[48px] leading-[1.2em]  text-[#f5f5f5] font-semibold mt-[5px] mb-[15px] ">
 									Praiz Dev
 								</h2>
 								<p>
