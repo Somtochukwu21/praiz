@@ -1,2 +1,2 @@
 export * from "./Global";
-export * from "./home";
+export * from "./about_me";

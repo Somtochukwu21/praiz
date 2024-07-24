@@ -12,15 +12,15 @@ export const Header: React.FC = () => {
 	const { isActive } = useActiveLink();
 
 	return (
-		<Card className="relative  md:p-[40px_70px_60px] ">
+		<Card className="relative md:p-[40px_70px_0px]">
 			<header className="z-10 flex h-[50px] justify-between items-center fixed bg-primary px-3 py-4 md:px-0 md:py-0 md:pb-10 md:h-auto w-full md:static">
 				<div>
 					<Link href="/" className="outline-none flex items-center">
 						<div className="w-8 h-8 leading-8 text-lg bg-secondary rounded-full text-[#d5d5d5] text-center font-bold mr-2 md:w-11 md:text-[28px] md:leading-[44px] md:h-11">
-							P
+							S
 						</div>
 						<div className="text-[#d5d5d5] leading-8 text-lg font-semibold [&>span]:font-normal md:leading-[50px] md:text-xl ">
-							Praiz <span>Dev</span>
+							Somto <span>Nnaji</span>
 						</div>
 					</Link>
 				</div>
