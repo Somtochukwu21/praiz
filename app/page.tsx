@@ -1,9 +1,11 @@
-import { HomePage } from "./components";
+import { Hero, Testimonial, WhatIDo } from "./components";
 
 export default function Home() {
 	return (
-		// <Card className="">
-			<HomePage />
-		// </Card>
+		<div>
+			<Hero />
+			<WhatIDo />
+			<Testimonial />
+		</div>
 	);
 }

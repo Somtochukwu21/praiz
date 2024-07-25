@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { Header } from "./components/Global/_header.tsx/header";
 import "./globals.css";
+import { Header } from "./components";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -20,11 +20,11 @@ export default function RootLayout({
 			lang="en"
 			className="relative h-full min-h-full w-full overflow-hidden select-none">
 			<body className={poppins.className}>
-				<div className="bg-primary">
+				<main className="bg-primary">
 					<Header />
 
 					{children}
-				</div>
+				</main>
 			</body>
 		</html>
 	);

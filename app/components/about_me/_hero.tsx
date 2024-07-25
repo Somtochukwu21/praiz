@@ -5,7 +5,7 @@ import "@splidejs/react-splide/css";
 import Link from "next/link";
 import React from "react";
 
-const Hero: React.FC = () => {
+export const Hero: React.FC = () => {
 	return (
 		<div className="flex flex-wrap">
 			<div className="col-sm-12 col-md-6 col-lg-6">
@@ -62,6 +62,6 @@ const Hero: React.FC = () => {
 	);
 };
 
-export default Hero;
+ 
 
 // work on adding yarn add swiper
