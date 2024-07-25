@@ -1,9 +1,10 @@
 "use client";
 import bg from "@/public/main_photo.jpg";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
 import Link from "next/link";
 import React from "react";
+import "swiper/css";
+import { A11y, Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export const Hero: React.FC = () => {
 	return (
@@ -19,24 +20,19 @@ export const Hero: React.FC = () => {
 			<div className="col-sm-12 col-md-6 col-lg-6">
 				<div className="text-[#d5d5d5] lg:p-[50px_70px_50px_0] -ml-[70px] ">
 					<div className="relative lg:shadow-custom py-[70px] px-[15%] bg-[#333]	h-full min-h-[100px]">
-						<Splide
-							options={{
-								type: "loop",
-								rewind: true,
-								pagination: false,
-								arrows: false,
-								autoplay: true,
-								drag: false,
-								interval: 4000,
-							}}
-							aria-label="Text slide">
-							<SplideSlide>
+						<Swiper
+							modules={[A11y, Autoplay]}
+							spaceBetween={10}
+							loop={true}
+							autoplay={({ delay: 6000 })}>
+							<SwiperSlide>
 								<div className="owl-text">Web Designer</div>
-							</SplideSlide>
-							<SplideSlide>
+							</SwiperSlide>
+
+							<SwiperSlide>
 								<div className="owl-text">Frontend Developer</div>
-							</SplideSlide>
-						</Splide>
+							</SwiperSlide>
+						</Swiper>
 
 						<h2 className="text-[48px] leading-[1.2em]  text-[#f5f5f5] font-semibold mt-[5px] mb-[15px] ">
 							Somto Nnaji
@@ -61,7 +57,5 @@ export const Hero: React.FC = () => {
 		</div>
 	);
 };
-
- 
 
 // work on adding yarn add swiper
