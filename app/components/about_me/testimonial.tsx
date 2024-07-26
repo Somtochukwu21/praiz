@@ -1,7 +1,5 @@
 "use client";
-import ashton from "@/public/ashton.jpg";
-// import { Splide, SplideSlide } from "@splidejs/react-splide";
-// import "@splidejs/react-splide/css";
+import aiony from "@/public/testimonial/aiony.jpg";
 import Image from "next/image";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import "swiper/css";
@@ -17,7 +15,7 @@ export const Testimonial = () => {
 				modules={[Pagination, A11y]}
 				spaceBetween={10}
 				slidesPerView={2}
-				pagination={{ clickable: true }}>
+				pagination={{ clickable: true, bulletClass: "bg-amber-400" }}>
 				<SwiperSlide>
 					<CarouselContent />
 				</SwiperSlide>
@@ -38,7 +36,7 @@ const CarouselContent = () => (
 			<div className="relative	p-[30px_20px_20px_60px]	bg-[#282828] rounded-[8px] border-2 border-solid border-[#444]">
 				<div className="absolute block top-[-30px]	left-[-30px]">
 					<Image
-						src={ashton}
+						src={aiony}
 						alt="ashton"
 						className="inline-block rounded-full border-2 border-[#969696] w-[70px] h-[70px]"
 					/>
