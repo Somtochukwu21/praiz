@@ -7,9 +7,9 @@ import { BlockTitle, Card } from "../Global";
 
 export const WhatIDo = () => {
 	return (
-		<Card >
+		<Card className="px-4 md:px-0">
 			<BlockTitle title="	What I Do" />
-			<div className="sm:grid grid-cols-2 gap-6 ">
+			<div className="grid md:grid-cols-2 gap-6   ">
 				<ServiceBox
 					title="Web Development"
 					icon={<GiSpiderWeb />}
@@ -37,10 +37,10 @@ export const WhatIDo = () => {
 
 const ServiceBox = ({ icon, text, title }: ServiceBoxProps) => (
 	<div className="flex gap-7 text-[#f5f5f5]">
-		<div className="text-5xl text-[#007ced]">{icon}</div>
+		<div className="text-3xl md:text-5xl text-[#007ced]">{icon}</div>
 		<div>
-			<h3 className="mb-2 text-ellipsis font-semibold text-lg">{title}</h3>
-			<div>{text}</div>
+			<h3 className="mb-2 text-ellipsis font-semibold md:text-lg">{title}</h3>
+			<p className="text-[#c3c3c3]">{text}</p>
 		</div>
 	</div>
 );

@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 import { HiMenu } from "react-icons/hi";
 import { useActiveLink, useToggleMenu } from "../../../base";
-import { Card } from "../card";
 import { MobileMenu } from "./mobile_menu";
 import { NavLinksList } from "./nav_links";
 
@@ -12,9 +11,9 @@ export const Header: React.FC = () => {
 	const { isActive } = useActiveLink();
 
 	return (
-		<div className="relative md:pt-10 md:pb-0	md:px-[70px]">
-			<Card className="">
-				<header className=" z-10 flex h-[50px] justify-between items-center fixed bg-primary px-3 py-4 md:px-0 md:py-0 md:pb-10 md:h-auto w-full md:static">
+		<div className="relative md:pt-10 md:pb-0 ">
+			<div className="max-w-[1800px] m-auto">
+				<header className=" z-10 flex h-[50px] justify-between items-center fixed bg-primary md:bg-transparent px-3 py-4 md:px-0 md:py-0 md:pb-10 md:h-auto w-full md:static">
 					<div>
 						<Link href="/" className="outline-none flex items-center">
 							<div className="w-8 h-8 leading-8 text-lg bg-secondary rounded-full text-[#d5d5d5] text-center font-bold mr-2 md:w-11 md:text-[28px] md:leading-[44px] md:h-11">
@@ -41,7 +40,7 @@ export const Header: React.FC = () => {
 					toggleMenu={toggleMenu}
 					menuOpen={menuOpen}
 				/>
-			</Card>
+			</div>
 		</div>
 	);
 };

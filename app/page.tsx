@@ -1,4 +1,4 @@
-import { Hero, Testimonial, WhatIDo,Clients } from "./components";
+import { Clients, Hero, Testimonial, WhatIDo } from "../components";
 
 export default function Home() {
 	return (

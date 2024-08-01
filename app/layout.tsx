@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { Header } from "./components";
+import { Footer, Header, StarsCanvas } from "../components";
 import "./globals.css";
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
+const poppins = Poppins({
+	weight: ["500", "400", "900", "600"],
+	subsets: ["latin"],
+	style: "normal",
+	preload: false,
+});
 
 export const metadata: Metadata = {
 	title: "Praiz | Innovative & Creative",
@@ -15,14 +20,12 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html
-			lang="en"
-			className="relative h-full min-h-full w-full overflow-hidden select-none">
-			<body className={poppins.className}>
-				<main className="bg-primary">
-					<Header />
-					{children}
-				</main>
+		<html lang="en" className="">
+			<body className={`${poppins.className}  bg-primary h-full w-full`}>
+				<StarsCanvas />
+				<Header />
+				{children}
+				<Footer />
 			</body>
 		</html>
 	);
