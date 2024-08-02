@@ -7,13 +7,14 @@ export const Footer = () => {
 		<footer className="py-4 mt-16 bg-[#252525]	border-t-2 border-solid border-[#333]">
 			<Card className="flex flex-col md:flex-row justify-between text-center">
 				<div>
-					<ul className=" flex gap-6 justify-center">
+					<ul className="flex gap-6 justify-center">
 						{socialLinks.map((social) => (
 							<li key={social.id}>
 								<Link
 									href={social.path}
 									target="_blank"
-									className="hover:opacity-[1] text-[#ddd] text-sm	opacity-[0.6] md:transition-opacity md:duration-[.3s] md:ease-in-out">
+									 className=" text-[#ddd] text-sm	opacity-[0.6] md:transition-opacity md:duration-[.3s] md:ease-in-out"
+								>
 									{social.name}
 								</Link>
 							</li>

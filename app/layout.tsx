@@ -7,6 +7,14 @@ const poppins = Poppins({
 	subsets: ["latin"],
 	style: "normal",
 	preload: false,
+	fallback: [
+		"Segoe UI",
+		"Roboto",
+		"Helvetica Neue",
+		"Open Sans",
+		"Ubuntu",
+		"sans-serif",
+	],
 });
 
 export const metadata: Metadata = {
@@ -20,8 +28,8 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" className="">
-			<body className={`${poppins.className}  bg-primary h-full w-full`}>
+		<html lang="en">
+			<body className={`${poppins.className}  bg-primary overflow-x-hidden`}>
 				<StarsCanvas />
 				<Header />
 				{children}

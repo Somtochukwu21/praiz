@@ -1,12 +1,12 @@
 import { Card, ExperienceAndEducation, PageTitle } from "../../components";
 
-const page = () => {
+const Resume = () => {
 	return (
-		<Card className="">
+		<Card >
 			<PageTitle header="Resume" text="8 Years of Experience" />
 			<ExperienceAndEducation />
 		</Card>
 	);
 };
 
-export default page;
+export default Resume;

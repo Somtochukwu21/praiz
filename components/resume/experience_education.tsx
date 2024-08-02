@@ -4,14 +4,14 @@ import { Timeline } from "./timeline";
 
 export const ExperienceAndEducation = () => {
 	return (
-		<div className="flex text-[#d5d5d5] gap-4">
+		<div className="flex flex-col md:flex-row text-[#d5d5d5] md:gap-4">
 			<div>
 				<BlockTitle title="Education" />
 
 				<Timeline data={experienceData} />
 			</div>
 
-			<div className="block-title">
+			<div>
 				<BlockTitle title="Experience" />
 				<Timeline data={experienceData} />
 			</div>
