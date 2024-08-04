@@ -1,0 +1,78 @@
+import aiony from "@/public/testimonial/aiony.jpg";
+import { GoProjectRoadmap } from "react-icons/go";
+import { PortfolioItemProps } from "../interface";
+
+export const portfolioItems: PortfolioItemProps[] = [
+	{
+		img: aiony,
+		alt: "Full Project 2",
+		name: "Full Project 2",
+		category: "Detailed",
+		groups: ["category_all", "category_detailed"],
+		link: "portfolio-project-2.html",
+		icon: <GoProjectRoadmap />,
+	},
+	{
+		img: aiony,
+		alt: "YouTube Video 2",
+		name: "YouTube Video 2",
+		category: "Video, YouTube Video",
+		groups: ["category_all", "category_video", "category_youtube-video"],
+		link: "https://www.youtube.com/embed/F-1weFCiYBA",
+		icon: <GoProjectRoadmap />,
+	},
+	{
+		img: aiony,
+		alt: "Image 2",
+		name: "Image 2",
+		category: "Image",
+		groups: ["category_all", "category_image"],
+		link: "img/portfolio/full/3.jpg",
+		icon: <GoProjectRoadmap />,
+	},
+	{
+		img: aiony,
+		alt: "SoundCloud Audio 1",
+		name: "SoundCloud Audio 1",
+		category: "SoundCloud",
+		groups: ["category_all", "category_soundcloud"],
+		link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+		icon: "fas fa-volume-up",
+	},
+	{
+		img: aiony,
+		alt: "Vimeo Video",
+		name: "Vimeo Video",
+		category: "Video, Vimeo Video",
+		groups: ["category_all", "category_video", "category_vimeo-video"],
+		link: "https://player.vimeo.com/video/158284739",
+		icon: "fab fa-vimeo-v",
+	},
+	{
+		img: aiony,
+		alt: "YouTube Video 1",
+		name: "YouTube Video 1",
+		category: "Video, YouTube Video",
+		groups: ["category_all", "category_video", "category_youtube-video"],
+		link: "https://www.youtube.com/embed/ZK8REu-8pGw",
+		icon: "fab fa-youtube",
+	},
+	{
+		img: aiony,
+		alt: "Full Project 1",
+		name: "Full Project 1",
+		category: "Detailed",
+		groups: ["category_all", "category_detailed"],
+		link: "portfolio-project-1.html",
+		icon: "far fa-file-alt",
+	},
+	{
+		img: aiony,
+		alt: "Direct URL",
+		name: "Direct URL",
+		category: "Direct URL",
+		groups: ["category_all", "category_direct-url"],
+		link: "https://themeforest.net/user/John/portfolio",
+		icon: "fa fa-link",
+	},
+];

@@ -2,7 +2,6 @@ import GoldenGrid from "@/public/clients/client-1.png";
 import Sweety from "@/public/clients/client-2.png";
 import MagicFurnitures from "@/public/clients/client-3.png";
 import LifeGuard from "@/public/clients/client-4.png";
-import Less from "@/public/clients/client-5.png";
 import DesignLovers from "@/public/clients/client-6.png";
 import WordPress from "@/public/clients/client-7.png";
 
@@ -29,5 +28,15 @@ export const clientImages = [
 	{ id: 7, url: WordPress, title: "Word Press" },
 ];
 
-
-             
+export const portNav = 
+	[
+		"All",
+		"Detailed",
+		"Direct URL",
+		"Image",
+		"SoundCloud",
+		"Video",
+		"Vimeo Video",
+		"YouTube Video",
+	
+];

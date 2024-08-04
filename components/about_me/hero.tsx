@@ -20,7 +20,7 @@ export const Hero: React.FC = () => {
 
 			<div className="col-sm-12 col-md-6 col-lg-6 p-0">
 				<div className="text-[#d5d5d5] w-full md:p-[50px_70px_50px_0] md:-ml-[70px] ">
-					<div className="relative lg:shadow-custom py-[70px] px-4 md:px-[15%] bg-[#333]	h-full min-h-[100px]">
+					<div className="relative lg:shadow-custom py-[70px] px-4 md:px-[15%] bg-[#333]  h-full min-h-[100px] ">
 						<Swiper
 							modules={[A11y, Autoplay]}
 							spaceBetween={10}

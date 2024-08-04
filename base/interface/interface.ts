@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import { ReactNode } from "react";
 
 export interface NavLinksProp {
@@ -26,3 +27,14 @@ export type ExperienceAndEducationType = {
 export interface TimeLineProps {
 	data: ExperienceAndEducationType;
 }
+
+
+export interface  PortfolioItemProps  {
+	img: StaticImageData;
+	alt: string;
+	name: string;
+	category: string;
+	groups: string[];
+	link: string;
+	icon: ReactNode;
+};
