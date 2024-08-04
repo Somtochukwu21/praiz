@@ -10,7 +10,7 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
 	link,
 	icon,
 }) => (
-	<figure className="w-1/3 flex">
+	<figure className="w-full relative group bg-green-500">
 		<div className="portfolio-item-img">
 			<Image src={img} alt={alt} title="" />
 			<a
@@ -21,7 +21,7 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
 			/>
 		</div>
 		{icon}
-		<h4 className="name">{name}</h4>
-		<span className="category">{category}</span>
+		<h4 className="name"> fhgh{name}</h4>
+		<span className="category ">{category}</span>
 	</figure>
 );

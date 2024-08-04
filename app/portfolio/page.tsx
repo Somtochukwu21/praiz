@@ -13,7 +13,7 @@ const Portfolio = () => (
 							<div className="col-xs-12 col-sm-12">
 								<div>
 									<PortNav />
-									<div className="portfolio-grid two-columns shuffle">
+									<div className="portfolio-grid two-columns shuffle grid grid-cols-2 gap-4">
 										{portfolioItems.map((item) => (
 											<PortfolioItem key={item.name} {...item} />
 										))}
