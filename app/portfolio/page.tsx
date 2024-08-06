@@ -10,10 +10,10 @@ const Portfolio = () => (
 
 					<div>
 						<div>
-							<div className="col-xs-12 col-sm-12">
+							<div>
 								<div>
 									<PortNav />
-									<div className="portfolio-grid two-columns shuffle grid grid-cols-2 gap-4">
+									<div className="grid grid-cols-3 gap-4">
 										{portfolioItems.map((item) => (
 											<PortfolioItem key={item.name} {...item} />
 										))}

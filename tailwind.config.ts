@@ -15,6 +15,8 @@ const config: Config = {
 			backgroundColor: { secondary: "#007ced", primary: "#222222" },
 		},
 	},
-	plugins: [],
+
+	plugins: [   ]
 };
+
 export default config;

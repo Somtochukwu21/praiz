@@ -1,4 +1,4 @@
-import aiony from "@/public/testimonial/aiony.jpg";
+import aiony from "@/public/4.jpg";
 import { GoProjectRoadmap } from "react-icons/go";
 import { PortfolioItemProps } from "../interface";
 
@@ -30,24 +30,7 @@ export const portfolioItems: PortfolioItemProps[] = [
 		link: "img/portfolio/full/3.jpg",
 		icon: <GoProjectRoadmap />,
 	},
-	{
-		img: aiony,
-		alt: "SoundCloud Audio 1",
-		name: "SoundCloud Audio 1",
-		category: "SoundCloud",
-		groups: ["category_all", "category_soundcloud"],
-		link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-		icon: "fas fa-volume-up",
-	},
-	{
-		img: aiony,
-		alt: "Vimeo Video",
-		name: "Vimeo Video",
-		category: "Video, Vimeo Video",
-		groups: ["category_all", "category_video", "category_vimeo-video"],
-		link: "https://player.vimeo.com/video/158284739",
-		icon: "fab fa-vimeo-v",
-	},
+
 	{
 		img: aiony,
 		alt: "YouTube Video 1",
@@ -55,7 +38,7 @@ export const portfolioItems: PortfolioItemProps[] = [
 		category: "Video, YouTube Video",
 		groups: ["category_all", "category_video", "category_youtube-video"],
 		link: "https://www.youtube.com/embed/ZK8REu-8pGw",
-		icon: "fab fa-youtube",
+		icon: <GoProjectRoadmap />,
 	},
 	{
 		img: aiony,
@@ -63,16 +46,16 @@ export const portfolioItems: PortfolioItemProps[] = [
 		name: "Full Project 1",
 		category: "Detailed",
 		groups: ["category_all", "category_detailed"],
+		icon: <GoProjectRoadmap />,
 		link: "portfolio-project-1.html",
-		icon: "far fa-file-alt",
 	},
 	{
 		img: aiony,
+		icon: <GoProjectRoadmap />,
 		alt: "Direct URL",
 		name: "Direct URL",
 		category: "Direct URL",
 		groups: ["category_all", "category_direct-url"],
 		link: "https://themeforest.net/user/John/portfolio",
-		icon: "fa fa-link",
 	},
 ];

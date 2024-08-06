@@ -10,18 +10,24 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
 	link,
 	icon,
 }) => (
-	<figure className="w-full relative group bg-green-500">
-		<div className="portfolio-item-img">
-			<Image src={img} alt={alt} title="" />
-			<a
-				href={link}
-				className={
-					link.includes("http") ? "lightbox mfp-iframe" : "ajax-page-load"
-				}
+	<figure className="w-full relative group ">
+		<div className="portfolio-item-img relative overflow-hidden rounded">
+			<Image
+				src={img}
+				alt={alt}
+				title=""
+				className="	transition-all duration-500 ease-in-out group-hover:scale-110"
 			/>
+	  
 		</div>
-		{icon}
-		<h4 className="name"> fhgh{name}</h4>
-		<span className="category ">{category}</span>
+		<h4 className="inline-block py-1 px-3 m-0 bg-[#222] text-[#f5f5f5] text-sm	absolute top-5 left-5 rounded	max-w-[calc(100%-67px)]">
+			{name}
+		</h4>
+		<span className="group-hover:opacity-100 inline-block py-2 px-3 rounded-sm bg-[#222] text-[#f5f5f5] text-xs bottom-5 left-5 opacity-0 transition-opacity duration-500 absolute ease-in-out">
+			{category}
+		</span>
+		<div className="group-hover:opacity-100 text-base text-[#007ced] inline-block py-2 px-3 rounded-sm bg-[#222] text-primary bottom-5 right-5 opacity-0 transition-opacity duration-500 absolute ease-in-out">
+			{icon}
+		</div>
 	</figure>
 );
