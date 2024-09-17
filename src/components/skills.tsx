@@ -10,6 +10,7 @@ const slugs = [
 	"flutter",
 	"android",
 	"html5",
+	'reactnative',
 	"css3",
 	"nodedotjs",
 	"express",
@@ -31,16 +32,16 @@ const slugs = [
 	"visualstudiocode",
 	"androidstudio",
 	"sonarqube",
-  "figma",
+	"figma",
 ];
 
-export const Skills=() =>{
+export const Skills = () => {
 	return (
-    <div> <BlockTitle title="skills" />
-    <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
-      
-			<IconCloud iconSlugs={slugs} />
+		<div>
+			<BlockTitle title="skills" />
+			<div className="relative flex h-full w-full items-center justify-center overflow-hidden px-20 pb-20 pt-8 ">
+				<IconCloud iconSlugs={slugs} />
+			</div>
 		</div>
-    </div>
 	);
-}
+};
