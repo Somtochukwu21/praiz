@@ -1,5 +1,4 @@
 "use client";
-// import mainPhoto from "@/public/main_photo.jpg";
 import Image from "next/image";
 import { useImageMovement } from "../../../base";
 import { WhatIDo } from "./whatido";

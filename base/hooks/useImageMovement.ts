@@ -1,3 +1,4 @@
+'use client'
 import { useState } from "react";
 export const useImageMovement = () => {
 	const [transform, setTransform] = useState({ x: 0, y: 0 });

@@ -15,4 +15,5 @@ export interface projectItemsProps {
 	groups: string[];
 	link: string;
 	icon: ReactNode;
+	id:number
 };
