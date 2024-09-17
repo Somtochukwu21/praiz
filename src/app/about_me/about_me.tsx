@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useImageMovement } from "../../../base";
 import { WhatIDo } from "./whatido";
 
-export const AboutMe = () => {
+ export const AboutMe = () => {
 	const { transform, handleMouseMove } = useImageMovement();
 	return (
 		<div

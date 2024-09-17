@@ -29,9 +29,9 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" className="h-full scroll-smooth">
+		<html lang="en" className="scroll-smooth">
 			<body
-				className={`${poppins.className} relative h-full  antialiased bg-primary`}>
+				className={`${poppins.className} relative#  antialiased bg-primary`}>
 				<Particles
 					className="fixed -z-10  size-full inset-0"
 					quantity={500}

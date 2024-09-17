@@ -1,6 +1,6 @@
-import { BlockTitle } from "./block-title";
-import { IconCloud } from "./magicui";
+import { BlockTitle, IconCloud } from "../../components";
 
+ 
 const slugs = [
 	"typescript",
 	"javascript",
@@ -10,7 +10,6 @@ const slugs = [
 	"flutter",
 	"android",
 	"html5",
-	'reactnative',
 	"css3",
 	"nodedotjs",
 	"express",
@@ -45,3 +44,4 @@ export const Skills = () => {
 		</div>
 	);
 };
+

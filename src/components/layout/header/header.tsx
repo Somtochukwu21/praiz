@@ -6,13 +6,12 @@ export const Header = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const toggleMenu = () => {
 		setMenuOpen(!menuOpen);
-		console.log(menuOpen);
 	};
 	return (
 		<header className="py-6 md:py-10 bg-accent md:bg-transparent md:text-vlr ">
 			<nav className="flex justify-between items-center max-w-[92%]  mx-auto">
 				<div className="flex font-semibold  items-center gap-2">
-					<p className="mt-2 uppercase font-bold text-lg">nnaji somto</p>
+					<Link href='/' className="mt-2 uppercase font-bold text-lg">nnaji somto</Link>
 				</div>
 
 				<div

@@ -3,7 +3,7 @@ import CarbonApplicationWeb from "../../../public/icons/CarbonApplicationWeb";
 import IconParkOutlineGraphicStitching from "../../../public/icons/IconParkOutlineGraphicStitching";
 import TokenDweb from "../../../public/icons/TokenDweb";
 import UitWebGrid from "../../../public/icons/UitWebGrid";
-import { BlockTitle } from "../block-title";
+import { BlockTitle } from "../../components/block-title";
 
 export const WhatIDo = () => {
 	return (
