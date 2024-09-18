@@ -22,12 +22,15 @@ export const Projects = () => {
 				))}
 			</div>
 
-			{/* Render the modal if a project is selected */}
 			{currentProject && (
 				<ProjectModal project={currentProject} onClose={handleCloseModal} />
+
+				// <Work project={currentProject} onClose={handleCloseModal} />
 			)}
 		</div>
 	);
 };
 
 export default Projects;
+
+//Try finding a way to check for the id

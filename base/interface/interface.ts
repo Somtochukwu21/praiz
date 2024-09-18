@@ -5,15 +5,36 @@ export interface ServiceBoxProps {
 	title: string;
 	text: string;
 }
-
-
-export interface projectItemsProps {
-	img: StaticImageData;
+/*
+export interface Project {
 	alt: string;
 	name: string;
 	category: string;
 	groups: string[];
-	link: string;
+	
+}
+	
+interface Project {
+	id: number;
+	title: string;
+	images: string[];
+	author: string;
+	website: string;
+	date: string;
+	description: string;
+	technologies: string[];
+}
+
+*/
+
+export interface projectItemsProps {
+	id: number;
 	icon: ReactNode;
-	id:number
-};
+	title: string;
+	image: StaticImageData;
+	author: string;
+	website: string;
+	date: string;
+	description: string;
+	technologies: string[];
+}

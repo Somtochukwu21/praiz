@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
 	@keyframes slide-in {
 		0% {
 			transform: translateX(-100%);
@@ -32,4 +32,4 @@
 	.animate-slide-out {
 		animation: slide-out 0.5s ease-in forwards;
 	}
-}
+} */
