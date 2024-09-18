@@ -1,2 +1,2 @@
-export * from "./icon-cloud";
 export * from "./particles";
+export * from "./typing-animation";

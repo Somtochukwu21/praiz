@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { MdiLightHamburger } from "../../../../public/icons/MdiLightHamburger";
+import { IcOutlineMenu } from "../../../../public/icons/IcOutlineMenu";
 export const Header = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const toggleMenu = () => {
@@ -11,7 +11,9 @@ export const Header = () => {
 		<header className="py-6 md:py-10 bg-accent md:bg-transparent md:text-vlr ">
 			<nav className="flex justify-between items-center max-w-[92%]  mx-auto">
 				<div className="flex font-semibold  items-center gap-2">
-					<Link href='/' className="mt-2 uppercase font-bold text-lg">nnaji somto</Link>
+					<Link href="/" className="mt-2 uppercase font-bold text-lg">
+						nnaji somto
+					</Link>
 				</div>
 
 				<div
@@ -42,7 +44,7 @@ export const Header = () => {
 					</ul>
 				</div>
 				<div className="md:hidden">
-					<MdiLightHamburger
+					<IcOutlineMenu
 						onClick={toggleMenu}
 						name="menu"
 						className="text-3xl cursor-pointer"
