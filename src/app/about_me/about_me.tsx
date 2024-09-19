@@ -7,7 +7,7 @@ export const AboutMe = () => {
 		<div>
 			<div className="grid grid-cols-2">
 				<GetToKnowMe />
-				<Skills />
+				<Skills/>
 			</div>
 			<WhatIDo />
 		</div>
