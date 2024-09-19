@@ -38,7 +38,7 @@ export const Skills = () => {
 	return (
 		<div>
 			<BlockTitle title="skills" />
-		 }
+ 
 			<div className="relative flex h-fulls w-fuldl items-centser justify-centerw overflow-hidden px-20 pb-20w pt-8w">
 				<IconCloud iconSlugs={slugs}/>
 			</div>
