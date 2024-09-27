@@ -14,12 +14,14 @@ export const projectItems: projectItemsProps[] = [
 			"Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		technologies: ["HTML5", "CSS3", "jQuery", "Ajax", "PHP5"],
 		icon: <PixelarticonsNotePlus />,
+		delay: 0,
 	},
 
 	{
 		id: 2,
 		title: "Portfolio Project 2",
 		image: aiony,
+		delay: 0.5,
 		author: "Alex Smith",
 		website: "www.project-site.com",
 		date: "25 december, 2016",
@@ -39,6 +41,7 @@ export const projectItems: projectItemsProps[] = [
 			"Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		technologies: ["HTML5", "CSS3", "jQuery", "Ajax", "PHP5"],
 		icon: <PixelarticonsNotePlus />,
+		delay: 0.7,
 	},
 	{
 		id: 4,
@@ -51,6 +54,7 @@ export const projectItems: projectItemsProps[] = [
 			"Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		technologies: ["HTML5", "CSS3", "jQuery", "Ajax", "PHP5"],
 		icon: <PixelarticonsNotePlus />,
+		delay: 0.9,
 	},
 	{
 		id: 5,
@@ -63,6 +67,7 @@ export const projectItems: projectItemsProps[] = [
 			"Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		technologies: ["HTML5", "CSS3", "jQuery", "Ajax", "PHP5"],
 		icon: <PixelarticonsNotePlus />,
+		delay: 1.1,
 	},
 	{
 		id: 6,
@@ -75,58 +80,6 @@ export const projectItems: projectItemsProps[] = [
 			"Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		technologies: ["HTML5", "CSS3", "jQuery", "Ajax", "PHP5"],
 		icon: <PixelarticonsNotePlus />,
+		delay: 1.3,
 	},
-	/*
-	{
-		id: 2,
-		img: aiony,
-		alt: "YouTube Video 2",
-		name: "YouTube Video 2",
-		category: "Video, YouTube Video",
-		groups: ["category_all", "category_video", "category_youtube-video"],
-		link: "https://www.youtube.com/embed/F-1weFCiYBA",
-		icon: <PixelarticonsNotePlus />,
-	},
-	{
-		id: 3,
-		img: aiony,
-		alt: "Image 2",
-		name: "Image 2",
-		category: "Image",
-		groups: ["category_all", "category_image"],
-		link: "img/portfolio/full/3.jpg",
-		icon: <PixelarticonsNotePlus />,
-	},
-
-	{
-		img: aiony,
-		alt: "YouTube Video 1",
-		name: "YouTube Video 1",
-		category: "Video, YouTube Video",
-		groups: ["category_all", "category_video", "category_youtube-video"],
-		id: 4,
-		link: "https://www.youtube.com/embed/ZK8REu-8pGw",
-		icon: <PixelarticonsNotePlus />,
-	},
-	{
-		img: aiony,
-		alt: "Full Project 1",
-		id: 5,
-		name: "Full Project 1",
-		category: "Detailed",
-		groups: ["category_all", "category_detailed"],
-		icon: <PixelarticonsNotePlus />,
-		link: "portfolio-project-1.html",
-	},
-	{
-		id: 6,
-		img: aiony,
-		icon: <PixelarticonsNotePlus />,
-		alt: "Direct URL",
-		name: "Direct URL",
-		category: "Direct URL",
-		groups: ["category_all", "category_direct-url"],
-		link: "https://themeforest.net/user/John/portfolio",
-	},
-	*/
-];
+	 ];

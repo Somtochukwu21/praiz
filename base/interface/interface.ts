@@ -5,27 +5,6 @@ export interface ServiceBoxProps {
 	title: string;
 	text: string;
 }
-/*
-export interface Project {
-	alt: string;
-	name: string;
-	category: string;
-	groups: string[];
-	
-}
-	
-interface Project {
-	id: number;
-	title: string;
-	images: string[];
-	author: string;
-	website: string;
-	date: string;
-	description: string;
-	technologies: string[];
-}
-
-*/
 
 export interface projectItemsProps {
 	id: number;
@@ -35,6 +14,7 @@ export interface projectItemsProps {
 	author: string;
 	website: string;
 	date: string;
+	delay: number;
 	description: string;
 	technologies: string[];
 }

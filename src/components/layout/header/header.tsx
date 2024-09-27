@@ -26,11 +26,7 @@ export const Header = () => {
 								About me
 							</Link>
 						</li>
-						<li>
-							<a className="md:hover:text-gray-400" href="#skills">
-								Skills
-							</a>
-						</li>
+
 						<li>
 							<a className="md:hover:text-gray-400" href="#projects">
 								Projects

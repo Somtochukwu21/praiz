@@ -61,8 +61,7 @@ export default function Home() {
 			<div id="aboutMe">
 				<AboutMe />
 			</div>
-
-			<div id="projects">
+			<div id="projects" className="my-16">
 				<Projects />
 			</div>
 		</div>

@@ -45,7 +45,7 @@ export const WhatIDo = () => {
 };
 
 const ServiceBox = ({ icon, text, title }: ServiceBoxProps) => (
-	<div className="flex gap-7 text-[#f5f5f5]">
+	<div className="flex gap-7 text-[#f5f5f5] bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl ">
 		<div className="text-3xl md:text-5xl text-[#007ced]">{icon}</div>
 		<div>
 			<h3 className="mb-2 text-ellipsis font-semibold md:text-lg">{title}</h3>
