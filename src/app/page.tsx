@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { BlurFade, BoxReveal, Header, TypingAnimation } from "../components";
+import { BlurFade, BoxReveal, Footer, Header, TypingAnimation } from "../components";
 
 import { AboutMe } from "./about_me";
 import { Projects } from "./projects";
@@ -70,6 +70,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 }

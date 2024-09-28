@@ -6,7 +6,7 @@ export const GetToKnowMe = () => {
 		<div>
 			<BlockTitle title="Get to Know Me!" />
 
-			<ScrollReveal className="text-vlr leading-relaxed space-y-4 bg-primary bg-opacity-70">
+			<ScrollReveal className="text-vlr leading-relaxed space-y-4 backdrop-filter backdrop-blur">
 				<p className="text-lg mb-6">
 					Hello! I&apos;m a passionate{" "}
 					<span className="text-blue-400 font-semibold">

@@ -13,7 +13,7 @@ export const Projects = () => {
 	const handleCloseModal = () => setCurrentProject(null);
 
 	return (
-		<div>
+		<div className=" max-w-[1760px] mx-auto">
 			<BlockTitle title="Projects" />
 			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 				{projectItems.map((item) => (

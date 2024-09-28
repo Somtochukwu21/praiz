@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { IcOutlineMenu } from "../../../../public/icons/IcOutlineMenu";
+import { IcOutlineMenu } from "../../../public/icons/IcOutlineMenu";
 export const Header = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const toggleMenu = () => {
