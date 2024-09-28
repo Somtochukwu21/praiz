@@ -1,4 +1,4 @@
-import { BlockTitle } from "../../components";
+import { BlockTitle, Button } from "../../components";
 import { ScrollReveal } from "../../components/ScrollReveal";
 
 export const GetToKnowMe = () => {
@@ -35,12 +35,9 @@ export const GetToKnowMe = () => {
 				</p>
 
 				<div className="mt-6">
-					<button className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded">
-						Contact Me
-					</button>
+					<Button>Contact Me</Button>
 				</div>
 			</ScrollReveal>
 		</div>
 	);
 };
-

@@ -18,3 +18,12 @@ export interface projectItemsProps {
 	description: string;
 	technologies: string[];
 }
+
+export
+interface ButtonProps {
+	children: ReactNode;
+	onClick?: () => void;
+	type?: "button" | "submit" | "reset";
+	disabled?: boolean;
+	className?: string;
+}

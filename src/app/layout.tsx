@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { Header, Particles } from "../components";
+import { Particles } from "../components";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -30,16 +30,14 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className="scroll-smooth">
-			<body
-				className={`${poppins.className} relative#  antialiased bg-primary`}>
+			<body className={`${poppins.className} relative  antialiased bg-primary`}>
 				<Particles
-					className="fixed -z-10  size-full inset-0"
+					className="fixed -z-10 size-full inset-0"
 					quantity={500}
 					ease={80}
 					refresh
 					color="#F7FFF7"
 				/>
-				<Header />
 				<main>{children}</main>
 			</body>
 		</html>

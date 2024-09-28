@@ -10,11 +10,11 @@ interface TypingAnimationProps {
   className?: string;
 }
 
-export default function TypingAnimation({
+export const TypingAnimation=({
   text,
   duration = 200,
   className,
-}: TypingAnimationProps) {
+}: TypingAnimationProps) =>{
   const [displayedText, setDisplayedText] = useState<string>("");
   const [i, setI] = useState<number>(0);
 

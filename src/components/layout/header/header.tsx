@@ -33,7 +33,7 @@ export const Header = () => {
 							</a>
 						</li>
 						<li>
-							<a className="md:hover:text-gray-400" href="#">
+							<a className="md:hover:text-gray-400" href="#contact">
 								Contact
 							</a>
 						</li>
