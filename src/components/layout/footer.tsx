@@ -3,7 +3,7 @@ import React from "react";
 
 export const Footer: React.FC = () => {
 	return (
-		<footer className="mt-8 backdrop-filter backdrop-blur text-gray-300 py-8">
+		<footer className="mt-8 backdrop-filter backdrop-blur text-gray-300 py-8 h-96">
 			<div className="container mx-auto px-4g max-w-[92%]">
 				<div className="flex justify-between w-full">
 					<div>

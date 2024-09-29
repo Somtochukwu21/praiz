@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { Particles ,BackToTopButton} from "../components";
+import { BackToTopButton, Particles } from "../components";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -28,6 +28,7 @@ export default function RootLayout({
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
+
 	return (
 		<html lang="en" className="scroll-smooth">
 			<body className={`${poppins.className} relative  antialiased bg-primary`}>

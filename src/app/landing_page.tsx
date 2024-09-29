@@ -32,10 +32,11 @@ export const LandingPage = () => {
 					</BoxReveal>
 					<BoxReveal boxColor="#1E96FC" duration={0.5}>
 						<p className="mt-4 md:max-w-lg lg:max-w-4xl text-gray-400 mx-auto">
-							Fusce tempor magna mi, non egestas velit ultricies nec. Aenean
-							convallis, risus non condimentum gravida, odio mauris ullamcorper
-							felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia
-							urna, a placerat sapien pretium eu.
+							Hello! I&apos;m a passionate Frontend-Focused Web Developer with a
+							strong dedication to building intuitive, engaging, and efficient
+							web experiences. My focus lies in crafting seamless user
+							interfaces and ensuring that every project I work on is both
+							visually appealing and technically sound.
 						</p>
 					</BoxReveal>
 				</div>

@@ -15,12 +15,12 @@ export const WhatIDo = () => {
 					<ServiceBox
 						title="Web Development"
 						icon={<TokenDweb />}
-						text="Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex."
+						text="As an experienced web developer, I craft responsive, user-friendly websites tailored to your business needs. By integrating modern design with optimized performance, I ensure your site engages visitors, drives conversions, and strengthens your online presence."
 					/>
 				</ScrollReveal>
 				<ScrollReveal delay={0.5}>
 					<ServiceBox
-						text="Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex."
+						text="As a skilled graphic designer, I create visually striking and memorable designs that reflect your brand's identity. By blending creativity with strategy, I ensure each design resonates with your target audience, enhancing brand visibility and engagement across all mediums."
 						title="Graphic Design"
 						icon={<IconParkOutlineGraphicStitching />}
 					/>
@@ -28,14 +28,14 @@ export const WhatIDo = () => {
 				<ScrollReveal delay={0.7}>
 					<ServiceBox
 						icon={<CarbonApplicationWeb />}
-						text="Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex."
+						text="Unlock the potential of mobile technology with expertly crafted apps designed for seamless user experiences. I specialize in developing fast, responsive mobile solutions that blend innovation with functionality to elevate your business and engage your audience."
 						title="Mobile App Development"
 					/>
 				</ScrollReveal>
 				<ScrollReveal delay={0.9}>
 					<ServiceBox
 						icon={<UitWebGrid />}
-						text="Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex."
+						text="Transform your online presence with captivating, user-centric web designs that leave a lasting impression. I focus on blending aesthetic appeal with intuitive functionality, creating websites that not only look stunning but also drive engagement and conversions."
 						title="Web Design"
 					/>
 				</ScrollReveal>

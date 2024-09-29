@@ -7,3 +7,48 @@
 		@apply w-full px-6 py-4 bg-gray-700 bg-opacity-50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blu focus:border-transparent text-lg;
 	}
 }
+
+/*
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(var(--orbit-size)) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(var(--orbit-size)) rotate(-360deg);
+  }
+}
+
+.planet-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  animation: orbit var(--orbit-period) linear infinite;
+}
+
+.planet-orbit > div {
+  transform: translateX(-50%) translateY(-50%);
+}*/
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(var(--orbit-size)) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(var(--orbit-size)) rotate(-360deg);
+  }
+}
+
+.planet-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  animation: orbit var(--orbit-period) linear infinite;
+}
+
+.planet-orbit > div {
+  transform: translateX(-50%) translateY(-50%);
+}

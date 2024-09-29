@@ -9,7 +9,7 @@ export const AboutMe = () => {
 				<GetToKnowMe />
 				<Skills />
 			</div>
-			<WhatIDo />
+			<Wh	atIDo />
 		</div>
 	);
 };
