@@ -47,8 +47,13 @@ const config = {
 					from: { height: "var(--radix-accordion-content-height)" },
 					to: { height: "0" },
 				},
+				float: {
+					"0%, 100%": { transform: "translateY(0)" },
+					"50%": { transform: "translateY(-20px)" },
+				},
 			},
 			animation: {
+				float: "float 6s ease-in-out infinite",
 				"slide-in": "slideIn 0.5s ease-out",
 				"slide-out": "slideOut 0.5s ease-in",
 				"accordion-down": "accordion-down 0.2s ease-out",

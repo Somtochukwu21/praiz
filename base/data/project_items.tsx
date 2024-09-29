@@ -54,7 +54,7 @@ export const projectItems: projectItemsProps[] = [
 			"Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		technologies: ["HTML5", "CSS3", "jQuery", "Ajax", "PHP5"],
 		icon: <PixelarticonsNotePlus />,
-		delay: 0.9,
+		delay: 0,
 	},
 	{
 		id: 5,
@@ -67,7 +67,7 @@ export const projectItems: projectItemsProps[] = [
 			"Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		technologies: ["HTML5", "CSS3", "jQuery", "Ajax", "PHP5"],
 		icon: <PixelarticonsNotePlus />,
-		delay: 1.1,
+		delay: 0.5,
 	},
 	{
 		id: 6,
@@ -80,6 +80,6 @@ export const projectItems: projectItemsProps[] = [
 			"Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		technologies: ["HTML5", "CSS3", "jQuery", "Ajax", "PHP5"],
 		icon: <PixelarticonsNotePlus />,
-		delay: 1.3,
+		delay: 0.7,
 	},
-	 ];
+];
