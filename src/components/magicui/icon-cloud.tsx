@@ -1,5 +1,4 @@
 "use client";
-
 import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";
 import {
@@ -33,7 +32,7 @@ export const cloudProps: Omit<ICloud, "children"> = {
 		outlineColour: "#0000",
 		maxSpeed: 0.04,
 		minSpeed: 0.02,
-		dragControl: false,
+		// dragControl: false,
 	},
 };
 
@@ -75,7 +74,7 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
 		if (!data) return null;
 
 		return Object.values(data.simpleIcons).map((icon) =>
-			renderCustomIcon(icon, theme || "light")
+			renderCustomIcon(icon, theme || "light"),
 		);
 	}, [data, theme]);
 
