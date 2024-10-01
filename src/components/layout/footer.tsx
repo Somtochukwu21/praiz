@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
 						<h4 className="text-lg font-semibold mb-2">Connect</h4>
 						<div className="flex space-x-4">
 							<a
-								href="https://twitter.com/yourusername"
+								href="https://twitter.com/somtodev"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-gray-300 hover:text-blue-400 transition-colors">
@@ -62,7 +62,7 @@ export const Footer: React.FC = () => {
 								</svg>
 							</a>
 							<a
-								href="https://github.com/yourusername"
+								href="https://github.com/Somtochukwu21"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-gray-300 hover:text-blue-400 transition-colors">
