@@ -1,27 +1,26 @@
-"use client";
-import { useEffect, useState } from "react";
+"use client";	
+// import { useEffect, useState } from "react";
 import { Footer, Header } from "../components";
-
 import { AboutMe } from "./about_me";
 import { ContactMe } from "./contact_me";
 import { LandingPage } from "./landing_page";
-import Loading from "./loading";
+// import Loading from "./loading";
 import { Projects } from "./projects";
 
 export default function Home() {
-	const [isLoading, setIsLoading] = useState(true);
+	// const [isLoading, setIsLoading] = useState(true);
 
-	useEffect(() => {
-		const timer = setTimeout(() => {
-			setIsLoading(false);
-		}, 0.2);
+	// useEffect(() => {
+	// 	const timer = setTimeout(() => {
+	// 		setIsLoading(false);
+	// 	}, 0.2);
 
-		return () => clearTimeout(timer);
-	}, []);
+	// 	return () => clearTimeout(timer);
+	// }, []);
 
-	if (isLoading) {
-		return <Loading />;
-	}
+	// if (isLoading) {
+	// 	return <Loading />;
+	// }
 	return (
 		<div>
 			<Header />

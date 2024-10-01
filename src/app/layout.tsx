@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { BackToTopButton, Particles } from "../components";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const poppins = Poppins({
 	weight: ["500", "400", "900", "600"],
@@ -41,6 +42,7 @@ export default function RootLayout({
 					color="#F7FFF7"
 				/>
 				<main>{children}</main>
+				<Toaster />
 			</body>
 		</html>
 	);
